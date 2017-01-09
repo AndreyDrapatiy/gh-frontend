@@ -1,0 +1,116 @@
+.hero {
+  background: url("../img/hero-bg.png") 50% 0 /cover ;
+  position: relative;
+  padding: 30px 0 50px;
+  color: #fff;
+
+  .logo {
+
+  }
+  .main-nav  {
+    position: relative;
+    button {
+      margin: 0;
+      padding: 0;
+      font-size: 24px;
+      color: #fff;
+    }
+    .nav-menu {
+      position: absolute;
+      width: 100%;
+      padding-top: 2%;
+      background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3));
+      overflow: hidden;
+    }
+    a {
+      padding: 3px;
+      font-size: 14px;
+      font-weight: 700;
+      text-transform: uppercase;
+      transition: 0.3s all ease-out;
+      color: #fff;
+      &:hover {
+        background: none;
+        color: #ffaf36;
+      }
+      &:focus {
+        background: none;
+      }
+    }
+  }
+  .intro {
+    margin-top: 220px;
+    margin-bottom: 100px;
+    span{
+        color: #fff;
+        font-size: 16px;
+        font-weight: 600;
+      }
+      h2{
+        color: #fff;
+        font-size: 45px;
+        font-weight: 700;
+      }
+      p{
+        color: #fff;
+        font-size: 15px;
+        font-style: italic;
+        line-height: 30px;
+      }
+  }
+  .carousel-indicators li {
+    display: inline-block;
+    width: 25px;
+    height: 4px;
+    margin: 1px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #8f8f8f;
+    border: none;
+
+
+  }
+  .carousel-indicators .active {
+    width: 25px;
+    height: 4px;
+    margin: 1px;
+    background-color: #ffaf36;
+    border: none;
+  }
+}
+
+
+
+
+
+
+@media (min-width: 768px) {
+  .hero {
+    .main-nav  {
+      .nav-menu {
+        position: inherit;
+        width: inherit;
+        background: none;
+      }
+      a {
+        padding: 0 17px;
+        font-size: 15px;
+      }
+    }
+    .intro {
+          margin-top: 190px;
+          margin-bottom: 110px;
+      p{
+        margin-bottom: 60px;
+      }
+
+      .slogan {
+        margin: 10px 0 10px 0;
+
+      }
+
+
+    }
+  }
+}
+

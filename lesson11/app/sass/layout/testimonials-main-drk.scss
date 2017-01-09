@@ -1,0 +1,34 @@
+.testimonials-main-drk {
+  background-color: #eaeff3;
+  position: relative;
+  padding: 70px 0 100px;
+  color: #fff
+}
+
+
+
+.testimonial-items-drk{
+  margin-top: 50px;
+  background-color: #eaeff3;
+  .testimonial-items-text{
+    padding: 30px 50px 30px 50px;
+    margin:65px 0 65px 0;
+    border: 1px solid #eaeff3;
+    background-color: #fff;
+    p{
+      padding-bottom: 20px;
+    }
+
+  }
+}
+
+.testimonial-item2{
+  background-image: url("../img/testimonial-text-bg2.png");
+  background-repeat: no-repeat;
+  background-size: 40%;
+}
+.testimonial-item4{
+  background-image: url("../img/testimonial-text-bg4.png");
+  background-repeat: no-repeat;
+  background-size: 40%;
+}

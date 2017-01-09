@@ -1,0 +1,40 @@
+.news {
+  background-color: #eaeff3;
+  position: relative;
+  padding: 100px 0 70px;
+
+  .short-p{
+    margin-bottom: 50px;
+  }
+  .date, .comment, .view{
+    text-align: right;
+    margin: 15px 0 15px 0;
+    i{
+      font-size: 35px;
+    }
+  }
+
+  .comment{
+    padding: 10px 0 10px 0;
+    border-bottom:solid 1px #ffaf36;
+    border-top: solid 1px #ffaf36;
+  }
+
+  .news-item{
+    margin: 15px 0 15px 0;
+
+    h4{
+      margin: 40px 0 20px 0;
+    }
+  }
+
+  .top-right{
+   padding: 15px 0 30px 0;
+
+  }
+  .bottom-right{
+    padding: 30px 0 25px 0;
+    border-top: solid 1px #d8dcdf;
+  }
+
+}

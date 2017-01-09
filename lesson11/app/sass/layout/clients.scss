@@ -1,0 +1,74 @@
+.clients {
+  position: relative;
+  padding: 100px 0 70px;
+  color: #fff;
+
+  .client-1{
+    background-image: url("../img/client-bg-gray.png");
+    background-repeat: no-repeat;
+  }
+  .client-2{
+    background-image: url("../img/client-bg-blue.png");
+    background-repeat: no-repeat;
+  }
+  .client-3{
+    background-image: url("../img/client-bg-red.png");
+    background-repeat: no-repeat;
+  }
+
+  .carousel-indicators {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    z-index: 15;
+    width: 60%;
+    padding-left: 0;
+    margin-left: -46%;
+    text-align: center;
+    list-style: none;
+  }
+  .carousel-indicators li {
+    display: inline-block;
+    float: left;
+    width: 10px;
+    height: 10px;
+    margin: 1px;
+
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #36a8ff;
+    border-radius: 10px;
+  }
+  .carousel-indicators .active {
+    width: 12px;
+    height: 12px;
+    margin: 0;
+    background-color: #ffaf36;
+  }
+}
+
+
+
+
+
+
+
+
+@media (min-width: 768px){
+  .client-1, .client-2, .client-3{
+    margin-top: 25px;
+    p{
+      padding-top: 30px;
+    }
+    img{
+      margin: 50px 0 70px auto;
+    }
+    h5{
+      margin: 60px 0 0 0;
+    }
+    .short-p{
+      padding: 0px;
+    }
+  }
+
+}

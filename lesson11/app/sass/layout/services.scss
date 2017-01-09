@@ -1,0 +1,41 @@
+.services{
+  background-image: url("../img/triangles.png");
+  background-repeat: no-repeat;
+  background-size: 15%;
+  background-position: 80% 100%;
+  background-color: #eaeff3;
+  position: relative;
+  padding: 70px 0 50px;
+
+
+  img{
+    margin: 30px 0 10px 0;
+  }
+  .btn-light{
+    margin-left: 15px;
+
+  }
+}
+
+
+
+
+@media (min-width: 768px) {
+ .services{
+   img{
+     margin: 60px 0 20px 0;
+   }
+   h4{
+     margin: 60px 0 20px 0;
+   }
+   p{
+     margin-bottom: 30px;
+   }
+ }
+
+
+
+
+
+
+}

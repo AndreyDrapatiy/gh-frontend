@@ -1,0 +1,26 @@
+.blog-post-comments{
+  position: relative;
+  padding-bottom: 50px;
+
+  .comment-item{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    border-bottom: solid 1px #e6e9ee;
+  }
+  .comment-item-reply{
+    padding-top: 50px;
+  }
+  i{
+    color: #ffaf36;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 5px 10px;
+    border:solid 1px #ffaf36;
+    border-radius: 100%;
+    margin-top: 10px;
+  }
+}
+
+
+

@@ -17,7 +17,7 @@ var gulp = require('gulp'),
 gulp.task('bower', function () {
     gulp.src('./app/index.html')
         .pipe(wiredep({
-            directory: "app/bower_components"
+            directory: "bower_components"
         }))
         .pipe(gulp.dest('./app'));
 });

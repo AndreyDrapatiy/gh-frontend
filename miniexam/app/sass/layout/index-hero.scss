@@ -1,0 +1,45 @@
+.index-hero {
+  background: url("../img/header-bg.png") 50% 0 /cover;
+  position: relative;
+  padding: 40px 0 40px;
+  color: #fff;
+
+  h1{
+    a{
+      color: #e8e8e8;
+      font-size: 34px;
+      font-weight: 300;
+      text-decoration: none;
+    }
+    p{
+      color: #e8e8e8;
+      font-size: 14px;
+      font-weight: 700;
+      padding: 0px;
+
+    }
+  }
+
+  .nav-menu {
+    a {
+      margin: 0 14px 0 14px;
+      padding: 5px;
+      font-size: 15px;
+      font-weight: 700;
+      transition: 0.3s all ease-out;
+      color: #fff;
+      &:hover {
+        background: none;
+        border-radius: 10px 9px 9px 10px;
+        background-color: #fc7d7d;
+      }
+      &:focus {
+        background: none;
+      }
+    }
+  }
+
+}
+
+
+

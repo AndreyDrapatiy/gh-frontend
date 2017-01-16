@@ -1,0 +1,21 @@
+.btn-dark {
+
+  display: inline-block;
+  padding: 15px 45px;
+  margin: 30px 10px 30px 10px;
+  background-color: white;
+  text-transform: uppercase;
+  color: #ff5959;
+  border-radius: 9px;
+  font-size: 13px;
+  font-weight: 700;
+  border: solid 1px #ff5959;
+  transition: 0.3s all ease-out;
+  cursor: pointer;
+  &:hover {
+    outline: none;
+    background-color: #ff5959;
+    color: white;
+  }
+
+}

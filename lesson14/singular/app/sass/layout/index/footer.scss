@@ -1,0 +1,37 @@
+.footer {
+  position: relative;
+  padding: 70px 0 50px;
+  background-color: #222222;
+  color: white;
+
+  p{
+    margin-top: 15px;
+  }
+
+  .icons{
+    i{
+      padding-top: 10px;
+    }
+  }
+
+  .awesome-icon{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+
+  }
+
+  .icon1{
+    background-color: #018ada;
+  }
+  .icon2{
+    background-color: #3c5a98;
+  }
+  .icon3{
+    background-color: #d13f3f;
+  }
+  .icon4{
+    background-color: #e95c93;
+  }
+}

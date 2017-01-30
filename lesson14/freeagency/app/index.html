@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title></title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Arimo:400,400i,700,700i" rel="stylesheet">
     <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="../bower_components/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/main.min.css">
@@ -16,11 +17,11 @@
 <body>
 <section class="fast-contact">
     <div class="container">
-        <div class="col-xs-6 col-sm-6 col-md-8 text-right">
-            <p><i class="fa fa-mobile" aria-hidden="true"></i>6337 3128</p>
+        <div class="col-xs-6 col-sm-6 col-md-8 text-right telphone">
+            <p><i class="fa fa-mobile mobile" aria-hidden="true"></i>  6337 3128 </p>
         </div>
         <div class="col-xs-6 col-sm-6 col-md-4 text-left">
-            <p><i class="fa fa-envelope" aria-hidden="true"></i>info@business.co<i class="fa fa-facebook" aria-hidden="true"></i></p>
+            <p><i class="fa fa-envelope envelope" aria-hidden="true"></i> info@business.co <i class="fa fa-facebook facebook" aria-hidden="true"></i></p>
         </div>
     </div>
 </section>
@@ -35,85 +36,90 @@
                 <p>Tagline goes here</p>
             </div>
         </div>
-        <nav class="navbar navbar-transparent  col-md-5">
-            <div class="navbar-header">
-                <!-- <a class="navbar-brand navbar-right" href="#">Brand</a> -->
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
+        <nav class="main-nav col-sm-5">
+            <div class="navbar-header text-center">
+                <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="true">
+                    <span class="toggle-title"><i class="fa fa-bars"></i></span>
                 </button>
             </div>
-            <div class="navbar-collapse collapse ">
+            <div id="navbar-collapse" class="navbar-collapse collapse text-center nav-menu">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Home</a></li>
-                    <li class="#"><a href="#">About Us</a></li>
-                    <li class="#"><a href="#">Our Approch</a></li>
-                    <li class="#"><a href="#">Our Work</a></li>
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Our Approch</a></li>
+                    <li><a href="#">Our Work</a></li>
                 </ul>
             </div>
         </nav>
+        <div class="col-md-2">
+            <button class="nav-btn">Free Consultation</button>
 
+        </div>
     </div>
 </section>
 <section class="hero">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 text-center">
+            <div class="col-xs-12 col-sm-12 col-md-12 text-center">
                 <h2>We Providing</h2>
-                <p class=" col-md-8 col-md-offset-2">
-                    Design is not making beauty, beauty emerges from selection,
-                    affinities, integration, love.
+                <p class=" col-md-8 col-md-offset-2 hero-p">
+                    Social Media marketing for businesses
                 </p>
             </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12 text-center">
-            <button>FREE CONSULTATION</button>
+            <button class="hero-btn">FREE CONSULTATION</button>
         </div>
     </div>
 </section>
 <section class="about-us">
     <div class="container">
-        <div class="col-md-12 text-center">
+        <div class="col-md-12 text-center h3-drk">
             <h3>About Us</h3>
             <p>We are added our major Services</p>
         </div>
-        <div class="col-xs-12 col-sm-12 col-md-4 ">
+        <div class="col-xs-12 col-sm-12 col-md-4 text-center item">
             <div class="col-xs-12 col-sm-12 col-md-12">
-                <img src="img/facebook.png" class="img-responsive">
+                <div class="col-md-6 col-md-offset-4">
+                    <img src="img/facebook.png" class="img-responsive">
+                </div>
             </div>
-            <h4>Facebook Marketing</h4>
+            <h4 class="h4-drk">Facebook Marketing</h4>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.  standard dummy text ever</p>
         </div>
-        <div class="col-xs-12 col-sm-12 col-md-4">
+        <div class="col-xs-12 col-sm-12 col-md-4 text-center item">
             <div class="col-xs-12 col-sm-12 col-md-12">
-                <img src="img/book.png" class="img-responsive">
+                <div class="col-md-6 col-md-offset-4">
+                    <img src="img/book.png" class="img-responsive">
+                </div>
             </div>
-            <h4>landing pages Creation</h4>
+            <h4 class="h4-drk">landing pages Creation</h4>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.  standard dummy text ever</p>
         </div>
-        <div class="col-xs-12 col-sm-12 col-md-4">
+        <div class="col-xs-12 col-sm-12 col-md-4 text-center item">
             <div class="col-xs-12 col-sm-12 col-md-12">
-                <img src="img/massages.png" class="img-responsive">
+                <div class="col-md-6 col-md-offset-4">
+                    <img src="img/massages.png" class="img-responsive">
+                </div>
             </div>
-            <h4>Ads management</h4>
+            <h4 class="h4-drk">Ads management</h4>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.  standard dummy text ever</p>
         </div>
     </div>
 </section>
-<section class="our-approch">
+<section class="our-upproch">
     <div class="container">
-        <div class="col-md-12 text-center">
-            <h3>About Us</h3>
-            <p>We are added our major Services</p>
+        <div class="col-md-12 text-center ">
+            <h3 class="h3-drk">Our Upproch</h3>
+            <p>Check Our approches step by step ( how we do it )</p>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12 text-left step1">
-           <div class="col-xs-8 col-sm-8 col-md-8 col-md-offset-2">
+           <div class="col-xs-8 col-sm-8 col-md-9 col-md-offset-3">
                <div class="col-md-2">
                    <img src="img/1step.png" class="img-responsive">
                </div>
                <div class="col-md-10">
-                    <h4>Step 1 : Heading Here</h4>
+                    <h4 class="h4-drk">Step 1 : Heading Here</h4>
                     <p>
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
@@ -123,9 +129,9 @@
            </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12 text-right step2">
-            <div class="col-xs-8 col-sm-8 col-md-8 col-md-offset-2">
+            <div class="col-xs-8 col-sm-8 col-md-9 ">
                 <div class="col-md-10">
-                    <h4>Step 2 : Heading Here</h4>
+                    <h4 class="h4-drk">Step 2 : Heading Here</h4>
                     <p>
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
@@ -138,12 +144,12 @@
             </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12 text-left step3">
-            <div class="col-xs-8 col-sm-8 col-md-8 col-md-offset-2">
+            <div class="col-xs-8 col-sm-8 col-md-9 col-md-offset-3">
                 <div class="col-md-2">
                     <img src="img/3step.png" class="img-responsive">
                 </div>
                 <div class="col-md-10">
-                    <h4>Step 3 : Heading Here</h4>
+                    <h4 class="h4-drk">Step 3 : Heading Here</h4>
                     <p>
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
@@ -153,9 +159,9 @@
             </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12 text-right step4">
-            <div class="col-xs-8 col-sm-8 col-md-8 col-md-offset-2">
+            <div class="col-xs-8 col-sm-8 col-md-9 ">
                 <div class="col-md-10">
-                    <h4>Step 2 : Heading Here</h4>
+                    <h4 class="h4-drk">Step 2 : Heading Here</h4>
                     <p>
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
@@ -172,49 +178,65 @@
 <section class="our-work">
     <div class="container">
         <div class="col-md-12 text-center">
-            <h3>Our Work</h3>
-            <p>We are added our featured works below</p>
+            <h3 class="h3-light">Our Work</h3>
+            <p class="p-light">We are added our featured works below</p>
         </div>
-        <div class="col-xs-12 col-sm-12 col-md-12">
+        <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1">
             <div class="col-md-3 text-center work1">
+                <div class="hover">
                 <span><i class="fa fa-paper-plane-o" aria-hidden="true"></i></span>
                 <h4>Project Name</h4>
                 <p>Facebook marketing</p>
+                </div>
             </div>
             <div class="col-md-3 text-center work2">
+                <div class="hover">
                 <span><i class="fa fa-paper-plane-o" aria-hidden="true"></i></span>
                 <h4>Project Name</h4>
                 <p>Facebook marketing</p>
+                </div>
             </div>
             <div class="col-md-3 text-center work3">
+                <div class="hover">
                 <span><i class="fa fa-paper-plane-o" aria-hidden="true"></i></span>
                 <h4>Project Name</h4>
                 <p>Facebook marketing</p>
+                </div>
             </div>
             <div class="col-md-3 text-center work4">
+                <div class="hover">
                 <span><i class="fa fa-paper-plane-o" aria-hidden="true"></i></span>
                 <h4>Project Name</h4>
                 <p>Facebook marketing</p>
+                </div>
             </div>
             <div class="col-md-3 text-center work5">
+                <div class="hover">
                 <span><i class="fa fa-paper-plane-o" aria-hidden="true"></i></span>
                 <h4>Project Name</h4>
                 <p>Facebook marketing</p>
+                </div>
             </div>
             <div class="col-md-3 text-center work6">
+                <div class="hover">
                 <span><i class="fa fa-paper-plane-o" aria-hidden="true"></i></span>
                 <h4>Project Name</h4>
                 <p>Facebook marketing</p>
+                </div>
             </div>
             <div class="col-md-3 text-center work7">
+                <div class="hover">
                 <span><i class="fa fa-paper-plane-o" aria-hidden="true"></i></span>
                 <h4>Project Name</h4>
                 <p>Facebook marketing</p>
+                </div>
             </div>
             <div class="col-md-3 text-center work8">
+                <div class="hover">
                 <span><i class="fa fa-paper-plane-o" aria-hidden="true"></i></span>
                 <h4>Project Name</h4>
                 <p>Facebook marketing</p>
+                </div>
             </div>
         </div>
     </div>
@@ -222,18 +244,23 @@
 <section class="analys">
     <div class="container">
         <div class="col-md-12 text-center">
-            <h3>Get Your Free Facebook Analysis Now</h3>
-            <p>Enter your details below</p>
+            <h3 class="h3-light">Get Your Free Facebook Analysis Now</h3>
+            <p class="p-light">Enter your details below</p>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 text-center">
-            <div class="col-md-12">
-                <p></p>
-            </div>
-            <form>
+
+            <form class="fast-analys">
+                <div class="col-md-12">
+                    <p>
+                        Sit down with our experts to receive a free customized marketing
+                        plan for your business + Learn How To Use Google and Facebook to
+                        get 5000% ROI or more
+                    </p>
+                </div>
                 <input type="text" class=" col-md-8 col-md-offset-2" placeholder="Your Name" >
                 <input type="text" class=" col-md-8 col-md-offset-2" placeholder="Contact Number">
                 <input type="text" class=" col-md-8 col-md-offset-2" placeholder="Company Name">
-                <button>SUBMIT NOW</button>
+                <button class="analys-btn">SUBMIT NOW</button>
             </form>
         </div>
     </div>

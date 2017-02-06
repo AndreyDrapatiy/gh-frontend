@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<!--
+  * Please see the included README.md file for license terms and conditions.
+  -->
+<head>
+    <title>Blank Standard HTML5 Web App Template</title>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+
+    <!-- see http://webdesign.tutsplus.com/tutorials/htmlcss-tutorials/quick-tip-dont-forget-the-viewport-meta-tag -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=no">
+    <style>
+        /* following two viewport lines are equivalent to meta viewport statement above, needed for Windows */
+        /* see http://www.quirksmode.org/blog/archives/2014/05/html5_dev_conf.html and http://dev.w3.org/csswg/css-device-adapt/ */
+        @-ms-viewport { width: 100vw ; min-zoom: 100% ; zoom: 100% ; }  @viewport { width: 100vw ; min-zoom: 100% zoom: 100% ; }
+        @-ms-viewport { user-zoom: fixed ; min-zoom: 100% ; }           @viewport { user-zoom: fixed ; min-zoom: 100% ; }
+    </style>
+
+   <link rel="stylesheet" href="bootstrap.css">
+   <link rel="stylesheet" href="calc.css">
+    <script src="js/app.js"></script>
+   
+</head>
+
+<body>
+<section class="inputoutput">
+    <div class="container">
+        <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12">
+            <form class="col-xs-12 col-sm-12 col-md-12">
+                <input type="text" id="inout"/>
+            </form>
+            <div class="col-xs-12 col-sm-12 col-md-12">
+                <b id="outputNumber"></b>
+            </div>
+        </div>
+        </div>
+    </div>
+</section>
+<section class="keybord">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12  keybord">
+                <div class="col-xs-3 col-sm-3 col-md-3 ">
+                    <button type="button" id="1" onclick="btnvalue('1');" value="1">1</button>
+                </div>
+                <div class="col-xs-3 col-sm-3 col-md-3 ">
+                    <button type="button" id="2" class="2" onclick="btnvalue('2');" value="2">2</button>
+                </div>
+                <div class="col-xs-3 col-sm-3 col-md-3 ">
+                    <button type="button" id="3" onclick="btnvalue('3');" value="3">3</button>
+                </div>
+                <div class="col-xs-3 col-sm-3 col-md-3 znaki">
+                    <button type="button" class="znaki"  id="+" onclick="btnvalue('+');" value="+">+</button>
+                </div>
+                <div class="col-xs-3 col-sm-3 col-md-3">
+                    <button type="button" id="4" onclick="btnvalue('4');" value="4">4</button>
+                </div>
+                <div class="col-xs-3 col-sm-3 col-md-3 ">
+                    <button type="button" id="5" class="5" onclick="btnvalue('5');" value="5">5</button>
+                </div>
+                <div class="col-xs-3 col-sm-3 col-md-3">
+                    <button type="button" id="6" onclick="btnvalue('6');" value="6">6</button>
+                </div>
+                <div class="col-xs-3 col-sm-3 col-md-3 znaki">
+                    <button type="button" id="-" class="znaki"  onclick="btnvalue('-');" value="-">-</button>
+                </div>
+                <div class="col-xs-3 col-sm-3 col-md-3">
+                    <button type="button" id="7" onclick="btnvalue('6');" value="6">6</button>
+                </div>
+                <div class="col-xs-3 col-sm-3 col-md-3">
+                    <button type="button" id="8" class="8" onclick="btnvalue('8');" value="8">8</button>
+                </div>
+                <div class="col-xs-3 col-sm-3 col-md-3 ">
+                    <button type="button" id="9" onclick="btnvalue('9');" value="9">9</button>
+                </div>
+                <div class="col-xs-3 col-sm-3 col-md-3 znaki">
+                    <button type="button" id="*" class="znaki" onclick="btnvalue('*');" value="*">*</button>
+                </div>
+                <div class="col-xs-3 col-sm-3 col-md-3 ">
+                    <button type="button" id="00"  onclick="btnvalue('00');" value="00">00</button>
+                </div>
+                <div class="col-xs-3 col-sm-3 col-md-3 ">
+                    <button type="button" id="0"  class="0" onclick="btnvalue('0');" value="0">0</button>
+                </div>
+                <div class="col-xs-3 col-sm-3 col-md-3 ">
+                    <button type="button" id="." onclick="btnvalue('.');" value=".">.</button>
+                </div>
+                <div class="col-xs-3 col-sm-3 col-md-3 znaki ">
+                    <button type="button" id="/" class="znaki" onclick="btnvalue('/');" value="/">/</button>
+                </div>
+                <div class="col-xs-9 col-sm-9 col-md-9 ">
+                    <button type="button" id="CE"  onclick="btnvalue('CE');" value="CE">CE</button>
+                </div>
+                <div class="col-xs-3 col-sm-3 col-md-3 ravno">
+                    <button class="ravno" onclick="calc()">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>

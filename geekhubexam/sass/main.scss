@@ -1,0 +1,328 @@
+header{
+  background-color: #2c3e50;
+  nav {
+    padding: 22px;
+    li{
+      background-color: transparent;
+      a{
+        color: #ffffff;
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        text-transform: uppercase;
+        text-decoration: none;
+        transition: 0.2s;
+      }
+      a:hover{
+        color: #ff4848;
+        background-color: #00b3ee;
+      }
+
+
+    }
+
+  }
+}
+
+.hero{
+  position: relative;
+  padding: 50px 0 100px 0;
+  background-color: #ff4848;
+
+  h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    z-index: 999;
+  }
+  h3{
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+  }
+  p{
+    padding: 20px 0 20px 0;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+  }
+}
+
+.hero-single{
+  position: relative;
+  padding: 70px 0 70px 0;
+  background-image: url("/wp-content/themes/exam/images/blog-hero-bg.png");
+  background-size: cover;
+
+  h2{
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 24px;
+
+
+}
+}
+
+.welcome{
+  position: relative;
+  padding: 75px 0 0 0;
+
+  h2{
+    padding: 10px;
+    font-size: 36px;
+    color: #004966;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  p{
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    color: #004966;
+    font-weight: 300;
+  }
+}
+
+.offering{
+  color: #ffffff;
+  position: relative;
+  padding: 75px 0 75px 0;
+  background-color: #004966;
+  h2{
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 24px;
+  }
+  p{
+    padding: 25px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
+  .offering-item{
+    p{
+      font-size: 18px;
+      font-weight: 300;
+      line-height: 21px;
+    }
+
+  }
+
+}
+
+.works{
+  color: #000000;
+  position: relative;
+  padding: 75px 0 75px 0;
+
+  h2{
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 24px;
+  }
+  p{
+    padding: 25px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
+
+}
+
+
+.clients{
+  position: relative;
+  padding: 50px 0 50px 0;
+  background-color: #ff4848;
+  color: #ffffff;
+
+
+  .title-description{
+    padding: 0 0 50px 0;
+  }
+}
+
+
+
+.contact-us{
+  position: relative;
+  padding: 50px 0 50px 0;
+  background-image: url("/wp-content/themes/exam/images/contactusbg.png");
+  color: #ffffff;
+
+
+  h2{
+    padding: 20px 0 20px 0;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 24px;
+  }
+  p{
+
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+  }
+
+  form{
+    margin: 10px 0 10px 0;
+    input{
+      border: none;
+      margin: 20px 0 20px 0;
+      width: 550px;
+      height: 60px;
+      background-color: #f4f4f4;
+
+
+    }
+    .massage{
+      height: 270px;
+    }
+
+    button{
+      width: 182px;
+      height: 60px;
+      background-color: #ff4848;
+      border: none;
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 24px;
+      text-transform: uppercase;
+      transition: 0.2s;
+    }
+    button:hover{
+      background-color: #ffffff;
+      color: #000000;
+    }
+  }
+  }
+
+
+
+.posts-container{
+  padding: 50px 0 50px 0;
+  a{
+    text-decoration: none;
+    color: #000;
+  }
+  h3{
+    padding-left: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+  }
+  h3:hover{
+    color: #ff4848;
+  }
+
+
+}
+
+
+.post-item{
+
+  margin: 20px 0 20px 0;
+  p{
+    padding: 10px;
+  }
+
+}
+
+.single-post-item{
+  padding: 50px 0 50px 0;
+  h2{
+    color: #d35400;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+  }
+}
+
+.sidebar{
+  margin-top: 65px;
+
+}
+
+
+
+
+
+footer{
+  .prefooter{
+    background-color: #2c3e50;
+  }
+  .footer{
+    background-color: #ff4848;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 24px;
+    color: #ffffff;
+    padding: 15px;
+  }
+}
+
+
+
+
+.widget {
+h3{
+  font-size: 30px;
+}
+  .search-field{
+    width: 300px;
+    height: 50px;
+    border: 1px solid #ffffff;
+  }
+
+  padding: 30px;
+  margin-bottom: 25px;
+  background: #004966;
+  color: #fff;
+  line-height: 24px;
+  .widget-title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  .cat-item {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  a {
+    font-size: 22px;
+    font-weight: 400;
+    color: #fff;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  /* Make sure select elements fit in widgets. */
+  select {
+    max-width: 100%;
+  }
+
+
+}
+.widget_search {
+  margin: 15px 0;
+}
+.wrapper-search {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  label {
+    margin: 30px 0;
+  }
+}
